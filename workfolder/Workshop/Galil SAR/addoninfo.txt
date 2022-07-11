@@ -1,0 +1,8 @@
+"AddonInfo"
+{
+    addonSteamAppID        550
+    addontitle             "Insurgency Galil SAR"
+    addonversion           1.0
+    addonauthor            "Lt. Rocky"
+    addonDescription       "The mock-up Galil SAR/ARM hybrid of Insurgency over L4D2's AK via its own animations"
+}

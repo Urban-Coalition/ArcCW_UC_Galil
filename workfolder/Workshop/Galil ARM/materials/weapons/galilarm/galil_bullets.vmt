@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture"			"weapons\GalilARM\Galil_Bullets_D"
+	"$bumpmap" 			"weapons\GalilARM\Galil_Bullets_N"
+	"$surfaceprop" 			"metal"
+	"$model" 				"1"
+	"$color"				"[1.2 1.2 1.2]" //Raised 
+	"$nocull" 				"1"
+
+	"$phong"                      	  	"1"
+	//"$phongtint"                    		"[.6 .8 1]" //Removed to allow phong tinting
+	"$phongboost"                   		"50" //Raised for better bright / tint contrast
+	"$phongfresnelranges"		"[0.2 8 4]"
+	"$phongexponent"			4
+	"$phongexponenttexture"         		"weapons\GalilARM\Galil_Bullets_G" //Gloss map was forced into red channel; green channel was redesigned
+	"$phongalbedotint"  	   	"1"
+
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmap"                       		"env_cubemap"
+	$envmapfresnel 			1 //Fresnel was added for improved emission interaction
+	"$envmaptint" 			"[0.4 0.2 0.1]"
+
+	$lightwarptexture			"weapons\GalilARM\Galil_ARM_Body_LW"
+}

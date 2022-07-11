@@ -1,0 +1,26 @@
+//Insurgency Galil Rifle VMT, by Lt. Rocky
+
+"VertexLitGeneric"
+{
+	"$basetexture"			"weapons\galilARM\Galil_ARM_Body_D"
+	"$bumpmap" 			"weapons\galilARM\Galil_ARM_Body_N"
+	"$color"				"[1.2 1.2 1.2]" //Raised for better complexion with lightwarp in low-light areas
+	"$nocull" 				"1"
+	//$halflambert			1
+
+	"$phong"                      	  	"1"
+	$basemapalphaphongmask		"1"
+	"$phongtint"                    		"[.9 .9 1]"
+	"$phongboost"                   		"5"
+	"$phongfresnelranges"           		"[2 1.4 4]"
+	"$phongexponenttexture"         		"weapons\galilARM\Galil_ARM_Body_G"
+	"$phongalbedotint"  	   	"0"
+
+	"$normalmapalphaenvmapmask" 	"1"
+	"$envmap"                       		"env_cubemap"
+	$envmapfresnel			1
+	$envmapFresnelMinMaxExp 		"[0 5 .4]"
+	"$envmaptint"			"[0.11 0.12 0.14]"
+
+	$lightwarptexture			"weapons\galilARM\Galil_ARM_Body_LW"
+}
