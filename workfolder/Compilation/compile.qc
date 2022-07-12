@@ -61,6 +61,10 @@ $bodygroup "mount_tactical"
 	studio "mount_tactical.smd"
 }
 
+$attachment "1" "base" 0.00 0.25 19.50 rotate -90 0 0
+$attachment "2" "base" -0.50 1.00 0.00 rotate -0 160 0
+$attachment "3" "camera" 0 0 0 rotate -90 0 0
+
 $cdmaterials "models/weapons/arccw/uc_galil"
 $surfaceprop "weapon"
 $contents "solid"
