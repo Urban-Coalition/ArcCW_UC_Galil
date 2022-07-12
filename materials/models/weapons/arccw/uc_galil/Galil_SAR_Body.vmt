@@ -3,7 +3,7 @@ VertexLitGeneric
 	$basetexture					"models/weapons/arccw/uc_galil/galil_sar_body_d"
 	$bumpmap						"models/weapons/arccw/uc_galil/galil_sar_body_n"
 	$phongexponenttexture			"models/weapons/arccw/uc_galil/galil_sar_body_g"
-	$color2							"[1 1 1]"
+	$color2							"[1.4 1.4 1.4]"
 	$basemapalphaphongmask			1
 	$normalmapalphaenvmapmask		0
 
