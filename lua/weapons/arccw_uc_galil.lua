@@ -166,7 +166,7 @@ SWEP.DistantShootSoundOutdoorsVolume = 1
 SWEP.DistantShootSoundIndoorsVolume = 1
 SWEP.Hook_AddShootSound = ArcCW.UC.InnyOuty
 
-SWEP.MuzzleEffect = "muzzleflash_6"
+SWEP.MuzzleEffect = "muzzleflash_5"
 SWEP.ShellEffect = "arccw_uc_shelleffect"
 SWEP.ShellModel = "models/weapons/arccw/uc_shells/762x39.mdl"
 SWEP.ShellPitch = 90
@@ -212,7 +212,7 @@ SWEP.HolsterAng = Angle(-15, 8, -10)
 SWEP.BarrelOffsetSighted = Vector(0, 0, 0)
 SWEP.BarrelOffsetHip = Vector(0, 0, 0)
 
-SWEP.CustomizePos = Vector(6.5, 0.8, -0.2)
+SWEP.CustomizePos = Vector(3.5, -1.8, -0.2)
 SWEP.CustomizeAng = Angle(8, 22, 15)
 
 SWEP.BarrelLength = 24
