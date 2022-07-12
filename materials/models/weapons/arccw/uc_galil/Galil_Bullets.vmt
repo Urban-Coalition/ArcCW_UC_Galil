@@ -8,7 +8,7 @@ VertexLitGeneric
 
 	$envmap							env_cubemap
 	$envmaptint						"[0.4 0.2 0.1]"
-	$envmapfresnel					1
+	$envmapfresnel					0
 
 	$phong							1
 	$phongboost						50

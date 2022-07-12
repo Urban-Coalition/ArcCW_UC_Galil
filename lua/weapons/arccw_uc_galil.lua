@@ -29,7 +29,7 @@ SWEP.UseHands = true
 
 SWEP.ViewModel = "models/weapons/arccw/c_uc_galil.mdl"
 SWEP.WorldModel = "models/weapons/arccw/c_uc_galil.mdl"
-SWEP.ViewModelFOV = 80
+SWEP.ViewModelFOV = 75
 
 SWEP.DefaultBodygroups = "000000000000"
 
@@ -58,7 +58,7 @@ SWEP.Recoil = 0.8
 SWEP.RecoilSide = 0.35
 
 SWEP.RecoilRise = 0.6
-SWEP.RecoilPunch = 1
+SWEP.RecoilPunch = -1
 SWEP.VisualRecoilMult = 1
 SWEP.MaxRecoilBlowback = 1
 SWEP.MaxRecoilPunch = 1
@@ -197,8 +197,8 @@ SWEP.HoldtypeSights = "rpg"
 
 SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 
-SWEP.ActivePos = Vector(0, -1, 1)
-SWEP.ActiveAng = Angle(0, 0, 0)
+SWEP.ActivePos = Vector(0, -2, 1)
+SWEP.ActiveAng = Angle(0, 0, -1)
 
 SWEP.SprintPos = Vector(0, 0, 0)
 SWEP.SprintAng = Angle(0, 0, 0)
