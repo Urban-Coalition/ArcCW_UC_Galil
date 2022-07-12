@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+	$basetexture					"models/weapons/arccw/uc_galil/galil_bullets_d"
+	$bumpmap						"models/weapons/arccw/uc_galil/galil_bullets_n"
+	$phongexponenttexture			"models/weapons/arccw/uc_galil/galil_bullets_g"
+	$color2							"[1 1 1]"
+	$normalmapalphaenvmapmask		1
+
+	$envmap							env_cubemap
+	$envmaptint						"[0.4 0.2 0.1]"
+	$envmapfresnel					1
+
+	$phong							1
+	$phongboost						50
+	$phongexponent					4
+	$phongalbedotint				1
+}
