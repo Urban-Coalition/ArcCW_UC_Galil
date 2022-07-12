@@ -6,3 +6,4 @@ Want:
 - Sniper barrel
 - Civilian barrel
 - Fixed stock
+- Underbarrel rail
