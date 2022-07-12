@@ -120,7 +120,7 @@ SWEP.SightedSpeedMult = 0.75
 SWEP.SightTime = 0.5
 SWEP.ShootSpeedMult = 0.75
 
-local path = ")^weapons/arccw_ur/g3/"
+local path = ")^weapons/arccw_uc_galil/"
 local path1 = ")^weapons/arccw_ur/mp5/"
 local common = ")^/arccw_uc/common/"
 local rottle = {common .. "cloth_1.ogg", common .. "cloth_2.ogg", common .. "cloth_3.ogg", common .. "cloth_4.ogg", common .. "cloth_6.ogg", common .. "rattle.ogg"}
@@ -316,18 +316,18 @@ SWEP.Animations = {
         MinProgress = 1.3,
         SoundTable = {
             {s = rottle,  t = 0.0},
-            {s = common .. "magpouch.ogg", t = 0.1},
             {s = ratel, t = 0.25},
-            {s = path .. "magout.ogg", 	 t = 0.45},
+            {s = path .. "magout.ogg", 	 t = 0.6},
+            {s = common .. "magpouchin.ogg", t = 0.6},
             {s = ratel, t = 0.5},
             {s = rottle,  t = 0.75},
-            {s = path .. "magin.ogg",    t = 0.95},
+            {s = common .. "magpouch.ogg", t = 1.0},
+            {s = path .. "struggle.ogg",    t = 1.0},
             {s = ratel, t = 1.1},
             {s = rottle,  t = 1.15},
-            {s = path .. "scrape.ogg",    t = 1.35},
-            {s = common .. "magpouchin.ogg", t = 1.35},
-            {s = common .. "shoulder.ogg", t = 2.05},
-            {s = common .. "grab.ogg", t = 2.1},
+            {s = path .. "magin.ogg",    t = 1.55},
+            {s = common .. "shoulder.ogg", t = 1.9},
+            {s = common .. "grab.ogg", t = 2.1, v = 0.2},
         },
     },
     --[[ ["reload_empty"] = {
