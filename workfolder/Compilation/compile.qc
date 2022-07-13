@@ -74,48 +74,56 @@ $collisionmodel "base.smd"
 $poseparameter "sights" 0 1 loop 0
 
 $sequence "idle" {
-    "anims/idle.smd"
-    fadein 0.2
-    fadeout 0.2
-    fps 60
+	"anims/idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 60
 }
 
 $sequence "fire" {
-    "anims/fire.smd"
-    "anims/fire_ads.smd"
+	"anims/fire.smd"
+	"anims/fire_ads.smd"
 	blend "sights" 0 1
-    fadein 0.02
-    fadeout 0.2
-    fps 60
+	fadein 0.02
+	fadeout 0.2
+	fps 60
 }
 
 $sequence "reload" {
-    "anims/reload.smd"
-    fadein 0.1
-    fadeout 0.2
-    fps 60
+	"anims/reload.smd"
+	fadein 0.1
+	fadeout 0.2
+	fps 60
 }
 
 $sequence "reload_empty" {
-    "anims/reload_empty.smd"
-    fadein 0.1
-    fadeout 0.2
-    fps 60
+	"anims/reload_empty.smd"
+	fadein 0.1
+	fadeout 0.2
+	fps 60
 }
 
 $sequence "draw" {
-    "anims/draw.smd"
-    fadein 0
-    fadeout 0.2
-    fps 60
+	"anims/draw.smd"
+	fadein 0
+	fadeout 0.2
+	fps 60
+	snap
+}
+
+$sequence "holster" {
+	"anims/holster.smd"
+	fadein 0
+	fadeout 0.2
+	fps 60
 	snap
 }
 
 $sequence "ready" {
-    "anims/ready.smd"
-    fadein 0
-    fadeout 0.2
-    fps 60
+	"anims/ready.smd"
+	fadein 0
+	fadeout 0.2
+	fps 60
 	snap
 }
 
