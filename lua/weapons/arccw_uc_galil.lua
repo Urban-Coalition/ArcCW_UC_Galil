@@ -268,7 +268,7 @@ SWEP.ExtraSightDist = 10
 SWEP.GuaranteeLaser = false
 
 SWEP.WorldModelOffset = {
-	pos = Vector(-7, 4, -4.5),
+	pos = Vector(-5.7, 4, -4),
 	ang = Angle(-10, 0, 180)
 }
 
@@ -371,6 +371,7 @@ SWEP.Animations = {
     },
     ["draw"] = {
         Source = "draw",
+		MinProgress = 0.5,
         LHIK = false,
         LHIKIn = 0,
         LHIKOut = 0.5,
