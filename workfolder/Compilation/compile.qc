@@ -96,6 +96,13 @@ $sequence "reload" {
     fps 60
 }
 
+$sequence "reload_empty" {
+    "anims/reload_empty.smd"
+    fadein 0.1
+    fadeout 0.2
+    fps 60
+}
+
 $sequence "draw" {
     "anims/draw.smd"
     fadein 0
