@@ -8,7 +8,7 @@ SWEP.PrintName = "IDF Defender"
 SWEP.TrueName = "Galil AR"
 
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = [[Israeli assault rifle created in response to the reliablility and durability of the AK-47.
+SWEP.Trivia_Desc = [[Israeli assault rifle created in response to the reliablility and durability of the AK-47. Heavier than other rifles, but features more utility out of the box.
 
 The slower rate-of-fire allows for greater controllability and better use in a machine-gun role.]]
 SWEP.Trivia_Manufacturer = "IDF Development & Manufacture"
@@ -452,8 +452,13 @@ SWEP.Animations = {
             {s = ratel, t = 1.1},
             {s = rottle,  t = 1.15},
             {s = path .. "magin.ogg",    t = 1.55},
-            {s = common .. "shoulder.ogg", t = 1.9},
-            {s = common .. "grab.ogg", t = 2.1, v = 0.2},
+            {s = ratel, t = 1.9},
+            {s = common .. "grab.ogg", t = 2.2, v = 1},
+            {s = path .. "chpull.ogg",    t = 2.5},
+            {s = path .. "chrelease.ogg",    t = 2.75},
+            {s = ratel, t = 3.1},
+            {s = common .. "shoulder.ogg", t = 3.2},
+            {s = common .. "grab.ogg", t = 3.8, v = 0.2},
         },
     },
     --[[ ["unjam"] = {
