@@ -215,7 +215,7 @@ SWEP.BarrelOffsetHip = Vector(0, 0, 0)
 SWEP.CustomizePos = Vector(3.5, -1.8, -0.2)
 SWEP.CustomizeAng = Angle(8, 22, 15)
 
-SWEP.BarrelLength = 24
+SWEP.BarrelLength = 48
 
 SWEP.AttachmentElements = {
 	["uc_galil_barrel_short"] = {
@@ -247,6 +247,16 @@ SWEP.AttachmentElements = {
 			{ ind = 6, bg = 1 },
 		},
 	},
+	["uc_galil_stock_folded"] = {
+		VMBodygroups = {
+			{ ind = 7, bg = 1 },
+		},
+	},
+	["uc_galil_stock_none"] = {
+		VMBodygroups = {
+			{ ind = 7, bg = 2 },
+		},
+	},
 	["uc_galil_underbarrel_bipod"] = {
 		VMBodygroups = {
 			{ ind = 5, bg = 1 },
@@ -270,11 +280,11 @@ SWEP.Attachments = {
 		Slot = "optic",
 		Bone = "base",
 		Offset = {
-			vpos = Vector(0, -2.4, -1.5),
+			vpos = Vector(0, -2.42, -1.5),
 			vang = Angle(90, 0, -90),
 		},
 		InstalledEles = {"mount_optic"},
-		ExtraSightDist = 0,
+		ExtraSightDist = 5,
 	},
 	{
 		PrintName = "Barrel",
