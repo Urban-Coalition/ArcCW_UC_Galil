@@ -8,7 +8,7 @@ SWEP.PrintName = "IDF Defender"
 SWEP.TrueName = "Galil AR"
 
 SWEP.Trivia_Class = "Assault Rifle"
-SWEP.Trivia_Desc = [[Israeli assault rifle created in response to the reliablility and durability of the AK-47. Heavier than other rifles, but features more utility out of the box.
+SWEP.Trivia_Desc = [[Israeli assault rifle created in response to the reliablility and durability of the AK-47. Heavier than other rifles, but features more utility out of the box. Famously features the bottle opener in the front handguard.
 
 The slower rate-of-fire allows for greater controllability and better use in a machine-gun role.]]
 SWEP.Trivia_Manufacturer = "IDF Development & Manufacture"
@@ -237,6 +237,11 @@ SWEP.AttachmentElements = {
 			{ ind = 9, bg = 1 },
 		},
 	},
+	["mount_underbarrel"] = {
+		VMBodygroups = {
+			{ ind = 10, bg = 1 },
+		},
+	},
 	["uc_galil_mag_drum"] = {
 		VMBodygroups = {
 			{ ind = 4, bg = 1 },
@@ -280,7 +285,7 @@ SWEP.Attachments = {
 		Slot = "optic",
 		Bone = "base",
 		Offset = {
-			vpos = Vector(0, -2.42, -1.5),
+			vpos = Vector(0, -2.02, -1.5),
 			vang = Angle(90, 0, -90),
 		},
 		InstalledEles = {"mount_optic"},
@@ -306,9 +311,10 @@ SWEP.Attachments = {
 		Slot = {"foregrip", "uc_galil_underbarrel"},
 		Bone = "base",
 		Offset = {
-			vpos = Vector(0, 1, 6.5),
+			vpos = Vector(0, 0.7, 6.5),
 			vang = Angle(90, 0, -90),
 		},
+		InstalledEles = {"mount_underbarrel"}, -- This also includes the bipod. Hope no one sees it.
 	},
 	{
 		PrintName = "Tactical",
@@ -372,9 +378,6 @@ SWEP.Animations = {
     ["draw"] = {
         Source = "draw",
 		MinProgress = 0.5,
-        LHIK = false,
-        LHIKIn = 0,
-        LHIKOut = 0.5,
         SoundTable = {
             {s = ratel, t = 0},
             {s = common .. "raise.ogg", t = 0.2},
@@ -383,9 +386,9 @@ SWEP.Animations = {
     },
     ["holster"] = {
         Source = "holster",
-        LHIK = false,
-        LHIKIn = 0,
-        LHIKOut = 0.5,
+        LHIK = true,
+        LHIKIn = 0.2,
+        LHIKOut = 0,
         SoundTable = {
             {s = ratel, t = 0},
         },
@@ -394,13 +397,13 @@ SWEP.Animations = {
         Source = "ready",
         LHIK = true,
         LHIKIn = 0,
-        LHIKOut = 0.6,
+        LHIKOut = 0.8,
         LHIKEaseOut = 0.25,
         SoundTable = {
             {s = ratel, t = 0},
-            {s = path .. "chback.ogg",    t = 0.2},
-            {s = path .. "chamber.ogg",    t = 0.3},
-            {s = common .. "shoulder.ogg",    t = .6},
+            {s = path .. "chpull.ogg",    t = 0.6},
+            {s = path .. "chrelease.ogg",    t = 0.85},
+            {s = common .. "shoulder.ogg",    t = 1.2},
         },
     },
     ["fire"] = {
@@ -413,9 +416,9 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.3,
-        LHIKOut = 0.65,
+        LHIKOut = 0.8,
         LHIKEaseOut = 0.25,
-        MinProgress = 1.3,
+        MinProgress = 1.8,
         SoundTable = {
             {s = rottle,  t = 0.0},
             {s = ratel, t = 0.25},
@@ -437,9 +440,9 @@ SWEP.Animations = {
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
         LHIK = true,
         LHIKIn = 0.3,
-        LHIKOut = 0.65,
+        LHIKOut = 0.8,
         LHIKEaseOut = 0.25,
-        MinProgress = 1.3,
+        MinProgress = 2.8,
         SoundTable = {
             {s = rottle,  t = 0.0},
             {s = ratel, t = 0.25},
