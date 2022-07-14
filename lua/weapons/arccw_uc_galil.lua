@@ -233,6 +233,12 @@ SWEP.AttachmentElements = {
 			{ ind = 2, bg = 1 },
 			{ ind = 3, bg = 1 },
 		},
+		AttPosMods = {
+			[3] = {
+				vpos = Vector(0, -0.35, 14.25),
+				vang = Angle(90, 0, -90),
+			},
+		},
 		NameChange = "IDF Serpent",
 		TrueNameChange = "Galil SAR",
 	},
@@ -254,6 +260,11 @@ SWEP.AttachmentElements = {
 	["uc_galil_mag_drum"] = {
 		VMBodygroups = {
 			{ ind = 4, bg = 1 },
+		},
+	},
+	["uc_galil_mag_762"] = {
+		VMBodygroups = {
+			{ ind = 4, bg = 2 },
 		},
 	},
 	["uc_galil_charm_ns"] = {
@@ -311,7 +322,7 @@ SWEP.Attachments = {
 		Slot = "muzzle",
 		Bone = "base",
 		Offset = {
-			vpos = Vector(0, -0.33, 17.5),
+			vpos = Vector(0, -0.35, 17.5),
 			vang = Angle(90, 0, -90),
 		},
 	},

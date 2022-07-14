@@ -28,6 +28,7 @@ $bodygroup "magazine"
 {
 	studio "magazine.smd"
 	studio "magazine_drum.smd"
+	studio "magazine_762.smd"
 }
 
 $bodygroup "fs"

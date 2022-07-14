@@ -12,6 +12,6 @@ VertexLitGeneric
 
 	$phong							1
 	$phongboost						50
-	$phongexponent					4
+	$phongexponentfactor			1
 	$phongalbedotint				1
 }
