@@ -178,7 +178,10 @@ SWEP.MuzzleEffectAttachment = 1 -- which attachment to put the muzzle on
 SWEP.CaseEffectAttachment = 2 -- which attachment to put the case effect on
 
 SWEP.BulletBones = {
-	--[1] = "tag_mag2",
+	[1] = "bul.001",
+	[2] = "bul.002",
+	[3] = "bul.003",
+	[4] = "bul.004",
 }
 
 SWEP.IronSightStruct = {
@@ -200,14 +203,14 @@ SWEP.AnimShoot = ACT_HL2MP_GESTURE_RANGE_ATTACK_AR2
 SWEP.ActivePos = Vector(0, -2, 1)
 SWEP.ActiveAng = Angle(0, 0, -1)
 
-SWEP.SprintPos = Vector(0, 0, 0)
-SWEP.SprintAng = Angle(0, 0, 0)
+SWEP.SprintPos = Vector(1, -2, 0)
+SWEP.SprintAng = Angle(-10, 18, 0)
 
 SWEP.CrouchPos = Vector(-2, -2, -0.6)
 SWEP.CrouchAng = Angle(0, 0, -14)
 
-SWEP.HolsterPos = Vector(-1, -1, 1.2)
-SWEP.HolsterAng = Angle(-15, 8, -10)
+SWEP.HolsterPos = Vector(0, -1, 1.2)
+SWEP.HolsterAng = Angle(-15, 15, -10)
 
 SWEP.BarrelOffsetSighted = Vector(0, 0, 0)
 SWEP.BarrelOffsetHip = Vector(0, 0, 0)
@@ -414,6 +417,7 @@ SWEP.Animations = {
     ["reload"] = {
         Source = "reload",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+		LastClip1OutTime = 1,
         LHIK = true,
         LHIKIn = 0.3,
         LHIKOut = 0.8,
@@ -438,6 +442,7 @@ SWEP.Animations = {
     ["reload_empty"] = {
         Source = "reload_empty",
         TPAnim = ACT_HL2MP_GESTURE_RELOAD_AR2,
+		LastClip1OutTime = 1,
         LHIK = true,
         LHIKIn = 0.3,
         LHIKOut = 0.8,
