@@ -11,6 +11,7 @@ att.Slot								= "uc_galil_mag"
 
 att.AutoStats							= true
 
+att.Override_Ammo                       = "ar2"
 att.Override_ClipSize					= 25
 att.Override_Trivia_Calibre				= "7.62x51mm NATO"
 att.Override_Trivia_Class				= "Battle Rifle"

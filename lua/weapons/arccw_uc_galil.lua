@@ -47,6 +47,12 @@ SWEP.PhysBulletMuzzleVelocity = 715
 
 SWEP.BodyDamageMults = ArcCW.UC.BodyDamageMults
 
+-- Jamming --
+
+SWEP.MalfunctionJam = true
+SWEP.MalfunctionPostFire = false
+SWEP.MalfunctionTakeRound = true
+
 -- Mag size --
 
 SWEP.ChamberSize = 1
@@ -468,6 +474,23 @@ SWEP.Animations = {
             {s = common .. "shoulder.ogg", t = 3.2},
         },
     },
+
+    ["fix"] = { 
+        Source = "ready", --Temporary
+        LHIK = true,
+        LHIKIn = 0,
+        LHIKOut = 0.8,
+        LHIKEaseOut = 0.25,
+		ShellEjectAt = 0.75,
+        SoundTable = {
+            {s = ratel, t = 0},
+            {s = path .. "chpull.ogg",    t = 0.6},
+            {s = path .. "chrelease.ogg",    t = 0.85},
+            {s = common .. "shoulder.ogg",    t = 1.2},
+        },
+    },
+
+	
     --[[ ["unjam"] = {
         Source = "jamfix",
         ShellEjectAt = 0.65,
