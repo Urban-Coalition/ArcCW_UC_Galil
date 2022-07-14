@@ -391,6 +391,15 @@ SWEP.Attachments = {
 	},
 }
 
+local sr_762mag = {
+	[path .. "magout.ogg"] = path .. "magout_762.ogg",
+	[path .. "magin.ogg"] = path .. "magin_762.ogg",
+}
+
+SWEP.Hook_TranslateSound = function(wep, data)
+	-- if sr_762mag[data] then return sr_762mag[data] end
+end
+
 SWEP.Animations = {
     ["idle"] = {
         Source = "idle"
