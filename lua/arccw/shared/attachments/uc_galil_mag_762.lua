@@ -27,3 +27,21 @@ att.Mult_Recoil							= 2
 att.Mult_RecoilSide						= 2
 
 att.DroppedModel						= "models/items/boxsrounds.mdl"
+
+local path = ")^weapons/arccw_uc_galil/"
+
+att.Hook_GetShootSound = function(wep, sound) -- Temporary
+    if wep:GetBuff_Override("Silencer") then
+        return "weapons/arccw_ud/glock/fire_supp.ogg"
+    else
+        return {path .. "fire-762-01.ogg", path .. "fire-762-02.ogg", path .. "fire-762-03.ogg", path .. "fire-762-04.ogg", path .. "fire-762-05.ogg", path .. "fire-762-06.ogg"}
+    end
+end
+
+att.Hook_GetDistantShootSoundOutdoors = function(wep, distancesound)
+    if wep:GetBuff_Override("Silencer") then
+        return -- fallback to script
+    else
+        return {path .. "fire-dist-762-01.ogg", path .. "fire-dist-762-02.ogg", path .. "fire-dist-762-03.ogg", path .. "fire-dist-762-04.ogg", path .. "fire-dist-762-05.ogg", path .. "fire-dist-762-06.ogg"}
+    end
+end
