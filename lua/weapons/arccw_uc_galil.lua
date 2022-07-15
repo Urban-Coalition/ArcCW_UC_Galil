@@ -242,6 +242,17 @@ SWEP.AttachmentElements = {
 		NameChange = "IDF Serpent",
 		TrueNameChange = "Galil SAR",
 	},
+	["uc_galil_barrel_long"] = {
+		VMBodygroups = {
+			{ ind = 3, bg = 2 },
+		},
+		AttPosMods = {
+			[3] = {
+				vpos = Vector(0, -0.35, 14.25),
+				vang = Angle(90, 0, -90),
+			},
+		},
+	},
 	["mount_optic"] = {
 		VMBodygroups = {
 			{ ind = 8, bg = 1 },
@@ -277,9 +288,14 @@ SWEP.AttachmentElements = {
 			{ ind = 7, bg = 1 },
 		},
 	},
-	["uc_galil_stock_none"] = {
+	["uc_galil_stock_fixed"] = {
 		VMBodygroups = {
 			{ ind = 7, bg = 2 },
+		},
+	},
+	["uc_galil_stock_none"] = {
+		VMBodygroups = {
+			{ ind = 7, bg = 3 },
 		},
 	},
 	["uc_galil_underbarrel_bipod"] = {

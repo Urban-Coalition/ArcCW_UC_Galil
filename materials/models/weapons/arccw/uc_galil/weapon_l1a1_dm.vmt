@@ -1,0 +1,19 @@
+"VertexLitGeneric"
+{
+	"$basetexture"					"models/weapons/arccw/uc_galil/weapon_l1a1_dm"
+	"$bumpmap" 						"models/weapons/arccw/uc_galil/weapon_l1a1_nm"
+    "$color"						"[1 1 1]"
+
+	"$phong"                        "1"
+	"$phongalbedotint"              "1"
+	
+	"$phongtint"                    "[.6 .8 1]"
+	"$phongboost"                   "1.4"
+	"$phongfresnelranges"           "[1 1 1]"
+	
+	"$phongexponenttexture"         "models/weapons/arccw/uc_galil/weapon_l1a1_exp"
+
+	"$envmap"                       "env_cubemap"
+	"$normalmapalphaenvmapmask"		"1"
+	"$envmaptint"                   "[0.03 0.03 0.03]"
+}

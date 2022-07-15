@@ -22,6 +22,7 @@ $bodygroup "barrel"
 {
 	studio "barrel.smd"
 	studio "barrel_short.smd"
+	studio "barrel_long.smd"
 }
 
 $bodygroup "magazine"
@@ -47,6 +48,8 @@ $bodygroup "stock"
 {
 	studio "stock_extended.smd"
 	studio "stock_folded.smd"
+	studio "stock_fixed.smd"
+	//studio "stock_fixed_polymer.smd"
 	blank
 }
 
