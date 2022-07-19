@@ -351,6 +351,7 @@ SWEP.Attachments = {
 			vang = Angle(90, 0, -90),
 		},
 		InstalledEles = {"mount_underbarrel"}, -- This also includes the bipod. Hope no one sees it.
+		MergeSlots = {13},
 	},
 	{
 		PrintName = "Tactical",
@@ -405,6 +406,16 @@ SWEP.Attachments = {
 			vang = Angle(90, -90, -90),
 		},
 	},
+	{
+		PrintName = "M203 slot",
+		Slot = "ubgl",
+		Bone = "base",
+		Offset = {
+			vpos = Vector(0, -0.4, 4.3),
+			vang = Angle(90, 0, -90),
+		},
+		Hidden = true,
+	}
 }
 
 local sr_762mag = {
