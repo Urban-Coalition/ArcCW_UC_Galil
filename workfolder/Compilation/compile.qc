@@ -10,6 +10,7 @@ $bodygroup "handguard"
 {
 	studio "handguard.smd"
 	studio "handguard_short.smd"
+	blank
 }
 
 $bodygroup "chpiece"
