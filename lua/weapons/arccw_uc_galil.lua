@@ -434,20 +434,14 @@ SWEP.Animations = {
     ["draw"] = {
         Source = "draw",
 		MinProgress = 0.5,
-        SoundTable = {
-            {s = ratel, t = 0},
-            {s = common .. "raise.ogg", t = 0.2},
-            {s = common .. "shoulder.ogg",    t = 0.2},
-        },
+        SoundTable = ArcCW.UC.DrawSounds,
     },
     ["holster"] = {
         Source = "holster",
         LHIK = true,
         LHIKIn = 0.2,
         LHIKOut = 0,
-        SoundTable = {
-            {s = ratel, t = 0},
-        },
+        SoundTable = ArcCW.UC.HolsterSounds,
     },
     ["ready"] = {
         Source = "ready",
