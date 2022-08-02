@@ -18,8 +18,8 @@ att.Override_Trivia_Class				= "Battle Rifle"
 att.Override_ShellModel					= "models/weapons/arccw/uc_shells/556x45.mdl"
 att.Override_ShellScale					= 1.145
 
-att.Mult_Damage							= 75 / 34
-att.Mult_DamageMin						= 40 / 20
+att.Mult_Damage							= 65 / 34
+att.Mult_DamageMin						= 35 / 20
 att.Mult_RPM							= 520 / 600
 
 att.Mult_Penetration					= 20 / 14
