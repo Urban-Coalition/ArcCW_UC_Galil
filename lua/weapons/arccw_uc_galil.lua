@@ -303,6 +303,12 @@ SWEP.AttachmentElements = {
 			{ ind = 5, bg = 1 },
 		},
 	},
+	["uc_ubgl_m203"] = {
+		VMBodygroups = {
+			{ ind = 1, bg = 2 },
+		},
+		UC_UseClassicM203Mount = true,
+	},
 }
 
 SWEP.ExtraSightDist = 10
