@@ -311,7 +311,7 @@ SWEP.AttachmentElements = {
 	},
 }
 
-SWEP.ExtraSightDist = 10
+SWEP.ExtraSightDist = 4
 SWEP.GuaranteeLaser = false
 
 SWEP.WorldModelOffset = {
@@ -331,7 +331,6 @@ SWEP.Attachments = {
 			vang = Angle(90, 0, -90),
 		},
 		InstalledEles = {"mount_optic"},
-		ExtraSightDist = 5,
 	},
 	{
 		PrintName = "Barrel",
