@@ -3,17 +3,17 @@ VertexLitGeneric
 	$basetexture					"models/weapons/arccw/uc_galil/galil_arm_body_d"
 	$bumpmap						"models/weapons/arccw/uc_galil/galil_arm_body_n"
 	$phongexponenttexture			"models/weapons/arccw/uc_galil/galil_arm_body_g"
-	$color2							"[0.9 0.95 1.1]"
-	$basemapalphaphongmask			1
+	$color2							"[1.1 1.1 1.1]"
+	$basemapalphaphongmask			0
 	$normalmapalphaenvmapmask		1
 
 	$envmap							env_cubemap
 	$envmaptint						"[0.01 0.01 0.01]"
 	$envmapfresnel					1
-	"$phongfresnelranges"			"[0.5 1 1]"
+	"$phongfresnelranges"			"[0.5 1.5 3.0]"
 
 	$phong							1
-	$phongboost						30
-	$phongexponentfactor			1
+	$phongboost						25
+	$phongexponentfactor			15
 	$phongalbedotint				1
 }
