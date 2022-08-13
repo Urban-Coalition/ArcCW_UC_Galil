@@ -1,5 +1,6 @@
 
 att.PrintName							= "21\" Defender Extended Barrel"
+att.Icon								= Material( "entities/att/acwatt_uc_galil_barrel_long.png", "mips smooth")
 
 if GetConVar("arccw_truenames"):GetBool() then
 	att.PrintName						= "21\" Galil Extended Barrel"

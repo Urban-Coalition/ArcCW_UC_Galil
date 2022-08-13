@@ -1,5 +1,6 @@
 
-att.PrintName							= "Wooden Stock"
+att.PrintName							= "Fixed Wooden Stock"
+att.Icon								= Material( "entities/att/acwatt_uc_galil_stock_fixed.png", "mips smooth")
 att.Description							= "Rare wooden stock"
 att.Slot								= "uc_galil_stock"
 

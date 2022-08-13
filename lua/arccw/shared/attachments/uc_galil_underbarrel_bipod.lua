@@ -1,5 +1,6 @@
 
 att.PrintName							= "Internal Bipod"
+att.Icon								= Material( "entities/att/acwatt_uc_galil_underbarrel_bipod.png", "mips smooth")
 att.Description							= "Ahh !! It has legs !!"
 att.Slot								= "uc_galil_underbarrel"
 

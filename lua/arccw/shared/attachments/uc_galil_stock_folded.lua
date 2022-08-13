@@ -1,5 +1,6 @@
 
 att.PrintName							= "Folded Stock"
+att.Icon								= Material( "entities/att/acwatt_uc_galil_stock_folded.png", "mips smooth")
 att.Description							= "Folded stock allows for greater manueverability at the cost of recoil control."
 att.Slot								= "uc_galil_stock"
 

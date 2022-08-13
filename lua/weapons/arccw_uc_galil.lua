@@ -236,8 +236,6 @@ SWEP.BarrelLength = 48
 SWEP.AttachmentElements = {
 	["uc_galil_barrel_short"] = {
 		VMBodygroups = {
-			{ ind = 1, bg = 1 },
-			{ ind = 2, bg = 1 },
 			{ ind = 3, bg = 1 },
 		},
 		AttPosMods = {
@@ -248,6 +246,12 @@ SWEP.AttachmentElements = {
 		},
 		NameChange = "IDF Serpent",
 		TrueNameChange = "Galil SAR",
+	},
+	["uc_galil_handguard_polymer"] = {
+		VMBodygroups = {
+			{ ind = 1, bg = 1 },
+			{ ind = 2, bg = 1 },
+		},
 	},
 	["uc_galil_barrel_long"] = {
 		VMBodygroups = {
@@ -343,7 +347,13 @@ SWEP.Attachments = {
 		PrintName = "Barrel",
 		Slot = "uc_galil_barrel",
 		DefaultAttName = "18\" Standard Barrel",
-		DefaultAttIcon = Material("entities/att/acwatt_ud_m16_barrel_default.png", "smooth mips"),
+		DefaultAttIcon = Material("entities/att/acwatt_uc_galil_barrel.png", "smooth mips"),
+	},
+	{
+		PrintName = "Handguard",
+		Slot = "uc_galil_handguard",
+		DefaultAttName = "Wooden Handguard",
+		DefaultAttIcon = Material("entities/att/acwatt_uc_galil_handguard.png", "smooth mips"),
 	},
 	{
 		PrintName = "Muzzle",
@@ -363,7 +373,7 @@ SWEP.Attachments = {
 			vang = Angle(90, 0, -90),
 		},
 		InstalledEles = {"mount_underbarrel"}, -- This also includes the bipod. Hope no one sees it.
-		MergeSlots = {13},
+		MergeSlots = {14},
 	},
 	{
 		PrintName = "Tactical",
@@ -379,13 +389,13 @@ SWEP.Attachments = {
 		PrintName = "Stock",
 		Slot = "uc_galil_stock",
 		DefaultAttName = "Extended Stock",
-		DefaultAttIcon = Material("entities/att/acwatt_ud_m16_stock_default.png", "smooth mips"),
+		DefaultAttIcon = Material("entities/att/acwatt_uc_galil_stock.png", "smooth mips"),
 	},
 	{
 		PrintName = "Magazine",
 		Slot = "uc_galil_mag",
 		DefaultAttName = "35-Round Mag",
-		DefaultAttIcon = Material("entities/att/acwatt_ud_m16_mag_30.png", "smooth mips"),
+		DefaultAttIcon = Material("entities/att/acwatt_uc_galil_mag.png", "smooth mips"),
 	},
 	{
 		PrintName = "Ammo Type",

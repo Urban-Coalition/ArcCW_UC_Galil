@@ -1,5 +1,6 @@
 
 att.PrintName							= "Galil 25-Round 7.62 NATO Mag"
+att.Icon								= Material( "entities/att/acwatt_uc_galil_mag_762.png", "mips smooth")
 
 if GetConVar("arccw_truenames"):GetBool() then
 	att.PrintName						= "Defender 25-Round 7.62 NATO Mag"

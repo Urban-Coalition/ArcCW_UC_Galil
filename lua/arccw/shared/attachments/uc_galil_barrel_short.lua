@@ -1,5 +1,6 @@
 
 att.PrintName							= "13\" Defender Carbine Barrel"
+att.Icon								= Material( "entities/att/acwatt_uc_galil_barrel_short.png", "mips smooth")
 
 if GetConVar("arccw_truenames"):GetBool() then
 	att.PrintName						= "13\" Galil SAR Barrel"
@@ -11,7 +12,7 @@ att.Slot								= "uc_galil_barrel"
 
 att.AutoStats							= true
 
-att.Mult_SightTime						= 0.85
+att.Mult_SightTime						= 0.9
 att.Mult_SightedSpeedMult				= 1.1
 att.Mult_HipDispersion					= 0.85
 
