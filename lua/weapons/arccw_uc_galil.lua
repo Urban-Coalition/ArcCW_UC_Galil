@@ -98,7 +98,7 @@ SWEP.ReloadInSights = true
 
 -- NPC --
 
-SWEP.NPCWeaponType = "weapon_smg1"
+SWEP.NPCWeaponType = "weapon_ar2"
 SWEP.NPCWeight = 60
 
 -- Accuracy --
