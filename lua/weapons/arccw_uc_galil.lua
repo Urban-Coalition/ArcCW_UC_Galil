@@ -332,16 +332,27 @@ SWEP.WorldModelOffset = {
 
 SWEP.MirrorVMWM = true
 
+SWEP.Hook_ModifyBodygroups = function(wep, data)
+	local vm = data.vm
+	local atts = wep.Attachments
+	if !IsValid(vm) then return end
+
+	if atts and atts[1].Installed and atts[1].Installed != "uc_galil_charm_ns" then
+		vm:SetBodygroup(8, 1)
+	else
+		vm:SetBodygroup(8, 0)
+	end
+end
+
 SWEP.Attachments = {
 	{
 		PrintName = "Optic",
-		Slot = "optic",
+		Slot = {"optic","uc_galil_charm"},
 		Bone = "base",
 		Offset = {
 			vpos = Vector(0, -2.02, -1.5),
 			vang = Angle(90, 0, -90),
 		},
-		InstalledEles = {"mount_optic"},
 	},
 	{
 		PrintName = "Barrel",
@@ -420,7 +431,7 @@ SWEP.Attachments = {
 	},
 	{
 		PrintName = "Charm",
-		Slot = {"charm", "fml_charm", "uc_galil_charm"},
+		Slot = {"charm", "fml_charm"},
 		FreeSlot = true,
 		Bone = "base",
 		Offset = {
