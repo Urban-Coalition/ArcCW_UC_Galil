@@ -123,7 +123,7 @@ SWEP.MalfunctionMean = 200
 
 SWEP.SpeedMult = 0.9
 SWEP.SightedSpeedMult = 0.75
-SWEP.SightTime = 0.5
+SWEP.SightTime = 0.35
 SWEP.ShootSpeedMult = 0.9
 
 local path = ")^weapons/arccw_uc_galil/"
