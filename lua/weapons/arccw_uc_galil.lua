@@ -183,7 +183,7 @@ SWEP.MuzzleEffect = "muzzleflash_5"
 SWEP.ShellEffect = "arccw_uc_shelleffect"
 SWEP.ShellModel = "models/weapons/arccw/uc_shells/556x45.mdl"
 SWEP.ShellPitch = 90
-SWEP.ShellScale = 1
+SWEP.ShellScale = .666
 SWEP.ShellRotateAngle = Angle(22, 180, 0)
 SWEP.UC_ShellColor = Color(0.7*255, 0.2*255, 0.2*255)
 
