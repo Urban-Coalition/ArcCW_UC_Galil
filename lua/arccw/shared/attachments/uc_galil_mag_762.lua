@@ -30,7 +30,7 @@ att.Mult_RecoilSide						= 2
 
 att.DroppedModel						= "models/items/boxsrounds.mdl"
 
-local path = ")^weapons/arccw_uc_galil/"
+local path = ")weapons/arccw_uc_galil/"
 
 att.Hook_GetShootSound = function(wep, sound) -- Temporary
     if wep:GetBuff_Override("Silencer") then
@@ -40,7 +40,7 @@ att.Hook_GetShootSound = function(wep, sound) -- Temporary
     end
 end
 
-local tail = ")^/arccw_uc/common/308/"
+local tail = ")/arccw_uc/common/308/"
 
 att.Hook_GetDistantShootSoundOutdoors = function(wep, distancesound)
     if wep:GetBuff_Override("Silencer") then
